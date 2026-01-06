@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #555;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="number"]:focus,
+select:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    flex: 1;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+#retrainBtn {
+    background-color: #2196F3;
+}
+
+#retrainBtn:hover {
+    background-color: #0b7dda;
+}
+
+#cancelRetrainBtn {
+    background-color: #f44336;
+}
+
+#cancelRetrainBtn:hover {
+    background-color: #da190b;
+}
+
+.result {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    border-left: 4px solid #4CAF50;
+}
+
+.result-item {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.result-item strong {
+    color: #555;
+}
+
+.hidden {
+    display: none;
+}
+
+.retrain-form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e3f2fd;
+    border-radius: 4px;
+    border-left: 4px solid #2196F3;
+}
+
+.retrain-form p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
