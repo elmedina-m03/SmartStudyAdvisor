@@ -1,0 +1,28 @@
+# EDA Summary
+
+Rows: 400
+Features: 8
+
+## Target counts
+RecommendedStrategy
+IntensiveStudy    100
+Rest              100
+LongTermPlan      100
+BalancedStudy     100
+
+## Numeric describe
+       HoursStudied  NumberOfSubjects  DaysUntilExam  SleepHours
+count    400.000000        400.000000      400.00000  400.000000
+mean       4.260500          4.615000        8.52250    6.439000
+std        2.701543          2.049947        8.75449    1.391427
+min        0.000000          1.000000        0.00000    3.500000
+25%        1.875000          3.000000        2.00000    5.500000
+50%        4.000000          5.000000        4.00000    6.500000
+75%        6.300000          6.000000       14.00000    7.500000
+max       10.000000          9.000000       30.00000    8.900000
+
+## Correlation with DaysUntilExam (strongest numeric signal for LongTermPlan)
+DaysUntilExam       1.000000
+SleepHours          0.747884
+NumberOfSubjects   -0.151599
+HoursStudied       -0.205789

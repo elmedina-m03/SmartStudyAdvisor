@@ -1,0 +1,7 @@
+experiment,removed_feature,n_features,accuracy,precision_macro,recall_macro,f1_macro,delta_f1,delta_accuracy
+A_baseline,,8,0.9917,0.9919,0.9917,0.9917,0.0,0.0
+B_no_SleepQuality,SleepQuality,7,0.9833,0.9844,0.9833,0.9833,0.0083,0.0083
+C_no_StressLevel,StressLevel,7,0.9833,0.9844,0.9833,0.9833,0.0083,0.0083
+D_no_FatigueLevel,FatigueLevel,7,0.975,0.9773,0.975,0.9749,0.0167,0.0167
+E_no_PreviousFeedback,PreviousFeedback,7,0.9833,0.9844,0.9833,0.9833,0.0083,0.0083
+F_no_SleepHours,SleepHours,7,0.9917,0.9919,0.9917,0.9917,0.0,0.0

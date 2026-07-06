@@ -1,0 +1,76 @@
+# Dataset location and column contract.
+# Paths are relative to the ml/ directory.
+
+dataset:
+  filename: student_study_strategy.csv
+  source_path: ../data/raw/student_study_strategy.csv
+  raw_path: data/raw/student_study_strategy.csv
+
+validation:
+  min_rows: 350
+  max_rows: 450
+  max_duplicate_rows: 0
+  target_balance_tolerance_percent: 15
+
+columns:
+  - name: HoursStudied
+    role: feature
+    required: true
+    dtype: float
+    nullable: false
+    min: 0
+    max: 12
+
+  - name: NumberOfSubjects
+    role: feature
+    required: true
+    dtype: int
+    nullable: false
+    min: 1
+    max: 10
+
+  - name: DaysUntilExam
+    role: feature
+    required: true
+    dtype: int
+    nullable: false
+    min: 0
+    max: 60
+
+  - name: StressLevel
+    role: feature
+    required: true
+    dtype: categorical
+    allowed_values: [Low, Medium, High]
+
+  - name: FatigueLevel
+    role: feature
+    required: true
+    dtype: categorical
+    allowed_values: [Low, Medium, High]
+
+  - name: SleepHours
+    role: feature
+    required: true
+    dtype: float
+    nullable: false
+    min: 0
+    max: 12
+
+  - name: SleepQuality
+    role: feature
+    required: true
+    dtype: categorical
+    allowed_values: [Poor, Average, Good]
+
+  - name: PreviousFeedback
+    role: feature
+    required: true
+    dtype: categorical
+    allowed_values: [None, Positive, Negative, Mixed]
+
+  - name: RecommendedStrategy
+    role: target
+    required: true
+    dtype: categorical
+    allowed_values: [Rest, BalancedStudy, IntensiveStudy, LongTermPlan]

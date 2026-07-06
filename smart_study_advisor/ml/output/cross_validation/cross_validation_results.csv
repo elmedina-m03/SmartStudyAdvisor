@@ -1,0 +1,14 @@
+# per_fold
+fold,accuracy,precision_macro,recall_macro,f1_macro
+1,0.9875,0.9881,0.9875,0.9875
+2,0.9875,0.9881,0.9875,0.9875
+3,1.0,1.0,1.0,1.0
+4,0.9625,0.963,0.9625,0.9625
+5,0.975,0.9773,0.975,0.9749
+
+# summary
+metric,mean,std
+accuracy,0.9825,0.0143
+precision_macro,0.9833,0.0139
+recall_macro,0.9825,0.0143
+f1_macro,0.9825,0.0143

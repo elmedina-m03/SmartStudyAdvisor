@@ -1,0 +1,18 @@
+Rank,Feature,Importance,ReadableLabel,BaseFeature
+1,numeric__DaysUntilExam,0.33899623908597887,DaysUntilExam (scaled),DaysUntilExam
+2,numeric__HoursStudied,0.24351282196619434,HoursStudied (scaled),HoursStudied
+3,numeric__SleepHours,0.17839669127038896,SleepHours (scaled),SleepHours
+4,numeric__NumberOfSubjects,0.06573958320598147,NumberOfSubjects (scaled),NumberOfSubjects
+5,categorical__FatigueLevel_High,0.035563694691895124,FatigueLevel = High,FatigueLevel
+6,categorical__PreviousFeedback_Negative,0.03426573014417163,PreviousFeedback = Negative,PreviousFeedback
+7,categorical__StressLevel_High,0.017167706171309877,StressLevel = High,StressLevel
+8,categorical__StressLevel_Low,0.016761290861348893,StressLevel = Low,StressLevel
+9,categorical__FatigueLevel_Low,0.016302218586666712,FatigueLevel = Low,FatigueLevel
+10,categorical__SleepQuality_Poor,0.013338862600909608,SleepQuality = Poor,SleepQuality
+11,categorical__SleepQuality_Good,0.012211419824797468,SleepQuality = Good,SleepQuality
+12,categorical__PreviousFeedback_Positive,0.00636240896611572,PreviousFeedback = Positive,PreviousFeedback
+13,categorical__PreviousFeedback_Mixed,0.0048887284035046994,PreviousFeedback = Mixed,PreviousFeedback
+14,categorical__StressLevel_Medium,0.00476009183811963,StressLevel = Medium,StressLevel
+15,categorical__PreviousFeedback_None,0.004691580414900479,PreviousFeedback = None,PreviousFeedback
+16,categorical__SleepQuality_Average,0.004261958776413738,SleepQuality = Average,SleepQuality
+17,categorical__FatigueLevel_Medium,0.0027789731913028175,FatigueLevel = Medium,FatigueLevel

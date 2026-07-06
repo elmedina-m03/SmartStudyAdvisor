@@ -1,0 +1,54 @@
+# Feature and target definitions for the Smart Study Advisor classifier.
+# Enum values must match Student.Domain (C#) exactly.
+
+features:
+  - name: HoursStudied
+    dtype: float
+    domain_column: HoursStudied
+    csharp_property: StudentContext.HoursStudied
+
+  - name: NumberOfSubjects
+    dtype: int
+    domain_column: NumberOfSubjects
+    csharp_property: StudentContext.NumberOfSubjects
+
+  - name: DaysUntilExam
+    dtype: int
+    domain_column: DaysUntilExam
+    csharp_property: StudentContext.DaysUntilExam
+
+  - name: StressLevel
+    dtype: categorical
+    domain_column: StressLevel
+    csharp_type: StressLevelCategory
+    values: [Low, Medium, High]
+
+  - name: FatigueLevel
+    dtype: categorical
+    domain_column: FatigueLevel
+    csharp_type: FatigueLevelCategory
+    values: [Low, Medium, High]
+
+  - name: SleepHours
+    dtype: float
+    domain_column: SleepHours
+    csharp_property: StudentContext.SleepHours
+
+  - name: SleepQuality
+    dtype: categorical
+    domain_column: SleepQuality
+    csharp_type: SleepQualityLevel
+    values: [Poor, Average, Good]
+
+  - name: PreviousFeedback
+    dtype: categorical
+    domain_column: PreviousFeedback
+    csharp_type: PreviousFeedbackType
+    values: [None, Positive, Negative, Mixed]
+
+target:
+  name: RecommendedStrategy
+  dtype: categorical
+  domain_column: RecommendedStrategy
+  csharp_type: StudyStrategy
+  values: [Rest, BalancedStudy, IntensiveStudy, LongTermPlan]

@@ -1,0 +1,7 @@
+FeatureA,FeatureB,PearsonR
+DaysUntilExam,SleepHours,0.7479
+HoursStudied,NumberOfSubjects,0.6417
+HoursStudied,SleepHours,0.2177
+HoursStudied,DaysUntilExam,-0.2058
+NumberOfSubjects,DaysUntilExam,-0.1516
+NumberOfSubjects,SleepHours,0.1357

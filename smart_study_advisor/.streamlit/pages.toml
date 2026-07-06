@@ -1,0 +1,19 @@
+[[pages]]
+path = "streamlit_app.py"
+name = "Početna"
+icon = "🏠"
+
+[[pages]]
+path = "pages/1_EDA.py"
+name = "EDA analiza"
+icon = "📊"
+
+[[pages]]
+path = "pages/2_Model_Evaluation.py"
+name = "Evaluacija"
+icon = "📈"
+
+[[pages]]
+path = "pages/3_About.py"
+name = "O projektu"
+icon = "ℹ️"

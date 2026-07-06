@@ -1,11 +1,51 @@
-# Visual Studio
+# Visual Studio / .NET
 .vs/
 bin/
 obj/
+*.user
+*.suo
+*.cache
 
-# Rider
+# Rider / JetBrains
 .idea/
 
 # OS
 .DS_Store
+Thumbs.db
+Desktop.ini
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Logs i privremeni fajlovi
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Feedback generisan pri korištenju aplikacije (runtime)
+smart_study_advisor/data/feedback/*.db
+smart_study_advisor/data/feedback/prediction_history.csv

@@ -1,0 +1,13 @@
+Best model: random_forest
+Macro F1: 0.9917
+
+                precision    recall  f1-score   support
+
+ BalancedStudy       0.97      1.00      0.98        30
+IntensiveStudy       1.00      0.97      0.98        30
+  LongTermPlan       1.00      1.00      1.00        30
+          Rest       1.00      1.00      1.00        30
+
+      accuracy                           0.99       120
+     macro avg       0.99      0.99      0.99       120
+  weighted avg       0.99      0.99      0.99       120
