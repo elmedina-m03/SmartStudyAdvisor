@@ -152,11 +152,11 @@ smart_study_advisor/
 │   └── smart_study_agent.py
 ├── data/
 │   ├── raw/                      # student_study_strategy.csv
-│   ├── processed/                # Train/test splitovi
 │   └── feedback/                 # Povratne informacije (CSV, SQLite)
 ├── models/                       # preprocessor.pkl, label_encoder.pkl, best_model.pkl
 ├── ml/
 │   ├── config/                   # Schema dataseta
+│   ├── data/processed/           # Train/test splitovi (offline pipeline)
 │   ├── scripts/                  # EDA, trening, evaluacija
 │   ├── output/                   # Figure, izvještaji, metrike
 │   └── src/                      # Preprocessing, training, analysis

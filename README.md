@@ -33,7 +33,7 @@ Puna dokumentacija: **[`smart_study_advisor/README.md`](smart_study_advisor/READ
 | [`smart_study_advisor/ml/`](smart_study_advisor/ml/) | EDA, trening, evaluacija, eksperimenti |
 | [`smart_study_advisor/models/`](smart_study_advisor/models/) | Trenirani model artefakti |
 | [`smart_study_advisor/reports/`](smart_study_advisor/reports/) | Finalni ML izvještaj |
-| [`_archive/dotnet/`](_archive/dotnet/) | Arhivirani legacy C# kod |
+| [`datasets/`](datasets/) | Kanonska kopija dataseta |
 
 ---
 

@@ -22,10 +22,8 @@ Predict `RecommendedStrategy` from student context features:
 ```
 ml/
 ├── config/          # Feature lists, dataset schema
-├── data/
-│   ├── raw/         # Original dataset files
-│   └── processed/   # Cleaned train/test splits
-├── notebooks/       # EDA notebooks
+├── data/processed/  # Train/test splitovi (izvor: ../data/raw/)
+├── notebooks/       # EDA notebook
 ├── src/             # Preprocessing, training, evaluation
 ├── scripts/         # Runnable pipeline entry points
 └── output/          # Figures, reports, metrics
@@ -37,8 +35,8 @@ Trained artifacts are exported to `../models/`.
 
 | Location | Purpose |
 |----------|---------|
-| `../datasets/student_study_strategy.csv` | Canonical labeled dataset |
-| `data/raw/student_study_strategy.csv` | Copy used by the ML pipeline |
+| `../datasets/student_study_strategy.csv` | Kanonska kopija dataseta (root repozitorija) |
+| `../data/raw/student_study_strategy.csv` | Aktivna kopija za ML pipeline i aplikaciju |
 | `config/dataset_schema.yaml` | Column contract (types, allowed values) |
 | `config/features.yaml` | Feature ↔ C# domain mapping |
 
